@@ -42,3 +42,12 @@ body{
           width: 20%;
           margin-left: 2rem;
 }
+
+.form-row {
+      display: flex;
+      justify-content: space-between;    
+}
+
+label {
+          display: block;
+}

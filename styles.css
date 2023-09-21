@@ -125,3 +125,30 @@ form > h4 {
       border: 1px solid rgb(168, 168, 168);
       border-radius: 3px;
 }
+
+
+
+.lower-section {
+      margin: 2rem 0 auto 2rem;
+}
+
+.lower-section button {
+      padding: .9rem 2rem;
+      border-radius: 6px;
+      border-style: none;
+      background-color: #596D48;
+      color: #f4f4f4;
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: .6px;
+}
+
+.lower-section p {
+      margin-top: 1.5rem;
+      font-size: 1.1rem;
+}
+
+.lower-section span {
+      color: #596D48;
+      font-weight: 600;
+}

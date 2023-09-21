@@ -52,7 +52,7 @@ body{
 .faded-logo img{
           width: 5.5em;
           height: 7em;
-          margin-left: 2rem;
+          margin: 0 2rem;
 }
 
 .sign-up-side {
@@ -69,6 +69,7 @@ body{
 
 .heading h4{
       margin-top: 100px;
+      margin-bottom: 1rem ;
       padding-left: 2rem;
       letter-spacing: 1px;
       line-height: 2.25ch;
@@ -151,4 +152,65 @@ form > h4 {
 .lower-section span {
       color: #596D48;
       font-weight: 600;
+}
+
+@media screen and (max-width: 1200px){
+
+      .main {
+            margin: 0px;
+            /* grid-template-columns: 1fr */
+  }
+      
+}
+
+@media screen and (max-width: 768px){
+      .main {
+            grid-template-columns: 1fr;
+            place-items: center;
+      }
+
+      .logo-side{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+      }
+
+      .sign-up-side {
+            
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-items: center;
+
+      }
+
+      .signup-form {
+            display: flex;
+            align-items: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+      }
+
+
+
+      .row-section, .form-row {
+      display: flex;
+      flex-direction: column;
+      }
+
+      .row-section {
+      margin-top: 2rem;
+            
+
+      }
+
+      .lower-section {
+            /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+             */
+      }
+
 }

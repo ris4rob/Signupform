@@ -163,6 +163,41 @@ form > h4 {
       font-weight: 600;
 }
 
+/* CSS relevent to JS */
+
+.error {
+      display: none;
+}
+
+.error-message {
+      display: block;
+      color: red;
+      margin-right: 1rem;
+      font-size: 10px;
+      justify-content: flex-end;
+    }
+  
+    
+  /* .error{
+      border: 1px solid red;
+  } */
+  
+  .exclamation{
+      position: absolute;
+      right: .5em;
+      top: 50%;
+      transform: translateY(-80%);
+      font-size: 1.5em;
+      color: hsl(0, 100%, 74%) ;
+      display: none;
+  }
+  
+  .emailInput::placeholder {
+      color: red
+  }
+
+/* MEDIA QUERIES */
+
 @media screen and (max-width: 1200px){
 
       .main {

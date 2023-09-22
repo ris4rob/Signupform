@@ -31,10 +31,12 @@
             <div class="row-section">
               <label for="first_name">First Name</label>
               <input type="text" name="first_name" id="firstName" />
+              <p class="error">* First name cannot be empty</p>
             </div>
             <div class="row-section">
               <label for="last_name">Last Name</label>
               <input type="text" name="last_name" id="lastName" />
+              <p class="error">* Last name cannot be empty</p>
             </div>
           </div>
 
@@ -42,10 +44,12 @@
             <div class="row-section">
               <label for="e_mail"> Email</label>
               <input type="email" name="email" id="email" />
+              <p class="error">* Looks like this is not an email</p>
             </div>
             <div class="row-section">
               <label for="phonenumber">Phone Number</label>
               <input type="phone" name="phonenumber" id="phonenumber" />
+              <p class="error">* This is not a valid phone number</p>
             </div>
           </div>
 
@@ -53,14 +57,16 @@
             <div class="row-section">
               <label for="password">Password</label>
               <input type="password" name="password" id="password" />
+              <p class="error">* Password cannot be empty</p>
             </div>
             <div class="row-section">
               <label for="confirmpassword">Confirm Password</label>
               <input
                 type="confirmpassword"
                 name="confirmpassword"
-                id="confirmpassword"
+                id="confirmPassword"
               />
+              <p class="error">* Password does not match</p>
             </div>
           </div>
         </form>

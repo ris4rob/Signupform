@@ -44,7 +44,7 @@
             <div class="row-section">
               <label for="e_mail"> Email</label>
               <input type="email" name="email" id="email" />
-              <p class="error">* Looks like this is not an email</p>
+              <p class="error email-error">* Email cannot be empty</p>
             </div>
             <div class="row-section">
               <label for="phonenumber">Phone Number</label>
@@ -62,11 +62,11 @@
             <div class="row-section">
               <label for="confirmpassword">Confirm Password</label>
               <input
-                type="confirmpassword"
+                type="password"
                 name="confirmpassword"
                 id="confirmPassword"
               />
-              <p class="error">* Password does not match</p>
+              <p class="error password-error error-message"></p>
             </div>
           </div>
         </form>
